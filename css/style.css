@@ -1,0 +1,100 @@
+main {
+  max-width: 1440px;
+  width: 100%;
+  height: 606px;
+  margin: 0 auto;
+  margin-top: 247px;
+  margin-bottom: 383px;
+  border-radius: 50px;
+  box-shadow: 0px 10px 100px #193a4b;
+  display: flex;
+  justify-content: center;
+  gap: 67px;
+}
+.form {
+  width: 548px;
+  height: 507px;
+  margin-top: 61px;
+}
+
+.map {
+  margin-top: 51px;
+  width: 638px;
+  height: 517px;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 46px;
+  color: #000000;
+}
+.touch {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 46px;
+  color: #6de1c2;
+}
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  color: #6de1c2;
+}
+
+.name-input,
+.street-input,
+.phonenumber-input,
+.email-input {
+  max-width: 548px;
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-bottom: 1px solid #737b7d;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.city-postcode {
+  max-width: 548px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.city-input,
+.postcode-input {
+  max-width: 357px;
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-bottom: 1px solid #737b7d;
+}
+.postcode-input {
+  max-width: 167px;
+}
+
+.btn {
+  width: 547px;
+  height: 54px;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 206px;
+  background-color: #0982fe;
+  margin-top: 28px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.name-input::placeholder,
+.street-input::placeholder,
+.phonenumber-input::placeholder,
+.email-input::placeholder,
+.city-input::placeholder,
+.postcode-input::placeholder {
+  padding-left: 16px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}

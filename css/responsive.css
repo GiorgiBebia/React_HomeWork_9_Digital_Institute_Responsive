@@ -1,0 +1,15 @@
+@media (max-width: 1300px) {
+  main {
+    flex-direction: column-reverse;
+    height: 100%;
+    align-items: center;
+    gap: 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .map {
+    width: 535px;
+    height: 400px;
+  }
+}
